@@ -1,0 +1,78 @@
+/* 
+Typography is a way that text
+is arranged and presented.
+*/
+
+/* input and button and form does not inherit the 
+    property of parent
+*/
+
+body {
+  padding: 5%;
+  /* font-size: 2rem;
+    color: purple; */
+}
+
+/* input, button{
+    font: inherit;
+} */
+
+/* here we learn the text property */
+p {
+  /* text-decoration: line-through; */
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* when we use link at time use none */
+  text-decoration: none;
+}
+
+/* p {
+
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+
+
+} */
+/* p{
+    text-align: left;
+    text-align: center;
+    /* when uses the news paper use justify */
+/* text-align: right; 
+}*/
+/* p{
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+} */
+a{
+    font-size: 1rem;
+}
+
+a:visited{
+    color: rgb(101, 98, 160);
+}
+
+
+a:hover, a:focus{
+    color: brown;
+}
+
+a:active{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

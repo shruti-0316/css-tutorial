@@ -1,0 +1,20 @@
+
+
+ol{
+    list-style: lower-alpha;
+}
+ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: blue;
+    line-height: 1.5;
+}
+
+ul li:nth-child(odd){
+    color: red;
+}
+
+::marker{
+    color: black;
+}
