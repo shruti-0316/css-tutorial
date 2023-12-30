@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* the default size of box is => box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 2px dashed purple; */
+    border: 5px double purple;
+    font-size: 1.5rem;
+    padding: 1.5em;
+    margin: 1.5em;
+}
+
+.circle{
+    margin: 3rem auto;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 5px solid rgb(225, 11, 11);
+    outline-offset: 0.25rem;
+
+}
