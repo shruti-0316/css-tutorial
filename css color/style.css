@@ -1,0 +1,12 @@
+   /* color checker 
+ https://coolors.co/colors */
+body{
+    font-size: 22px;
+    font-family: monospace;
+    background: #fff;
+    color: #000;
+}
+
+p{
+    color: darkblue;
+}

@@ -1,0 +1,29 @@
+/* universal selector */
+
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* element selector */
+body{
+    font-size: 20px;
+}
+h1, h2{
+    color: palevioletred;
+}
+p{
+    color: purple;
+}
+p span{
+    text-transform: uppercase;
+    background-color: gold ;
+}
+/* class selector */
+.gray{
+    color: gray;
+}
+/* id selector */
+#second{
+    font-style: italic;
+}
